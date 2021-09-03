@@ -9,8 +9,12 @@
   height: 50vh;
   padding: 10px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* justify-content: flex-end;
+  align-items: flex-end; */
+  flex-direction: column-reverse;
+  align-items: flex-end;
 }
 .flex > div {
   background-color: #fff;
